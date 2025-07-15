@@ -212,6 +212,7 @@ class _PaystackPayNowState extends State<PaystackPayNow> {
                 //         child: const Icon(Icons.close)),
                 //   ],
                 // ),
+                appBar: AppBar(automaticallyImplyLeading: false, toolbarHeight: 0.0, backgroundColor: Color(0xffF4F4F4)),
                 body: WebViewWidget(
                   controller: controller,
                 ),
